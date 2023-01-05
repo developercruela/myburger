@@ -1,0 +1,36 @@
+.all {
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.control {
+  display: grid;
+}
+
+section#ingredients {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+section#ingredients .price {
+  display: flex;
+  gap: 40px;
+}
+section#ingredients .btns button {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(238, 193, 46);
+  border: none;
+  border-radius: 20px;
+}
+section#ingredients .btns button:hover {
+  background-color: rgb(193, 235, 235);
+}
+section#ingredients .btns button:active {
+  background-color: burlywood;
+}
